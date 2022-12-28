@@ -1,79 +1,49 @@
-![thumbnail](https://user-images.githubusercontent.com/16558205/180779213-ea740975-3df1-460a-a964-0a623ee25872.png)
+## Portfolio
 
-### Live - https://react-portfolio-template.netlify.app/
+Welcome to my portfolio! This portfolio was built using the NextJS framework, which is a React framework for building server-rendered and statically-exported applications.
 
-### Demo Video - https://www.youtube.com/watch?v=62_HLbx2zLQ&t=9s
+### Live - https://onkurlal.netlify.app/
 
-### Tutorials
-
-Youtube - https://www.youtube.com/watch?v=8cmJ2kR4SpM
-
-Blog - https://blog.chetanverma.com/how-to-build-a-portfolio-website-using-nextjs-and-tailwindcss
-
-### Features - 
+### Features -
 
 - Modern Stack (Next.js + TailwindCSS)
-- Minimal Design
-- Easy To Browse
 - Easy To Customize your details With GUI
-- Blog Crud (Create, Read, Update, Delete blog with easy to use UI).
+- Optional Blog and Resume
 - Dark Mode
+- Server-rendered React pages for improved SEO and faster initial load times
+- Automatic code splitting for faster page loads
+- Hot code reloading during development
 
-
-### Sections
-
-- Header
-- Work
-- Services
-- About
-- Contact
-- Markdown Blog
-
-
-### How To Use
+### How To Use -
 
 - Clone this repo
-- run `yarn`
-- `yarn dev`
+  - git clone https://github.com/OnkurLal/main-portfolio.git
+- Navigate to portfolio
+  - cd main-portfolio
+- Install dependencies
+  - yarn
+- Start development server
+  - yarn dev
+- This will start the development server at http://localhost:3000. The page will automatically reload if you make changes to the code and save.
 
+### Customization -
 
-### How To Deploy - 
+- Edit the portfolio.json file or
+- Use the GUI to edit details
 
-- There are many ways to Deploy this repo.
-- here we are gonna use netlify
+### How To Deploy -
+
+Deploy using netlify
+
 - Login into netlify with github
-- after login select the forked repo or the repo you want to deploy
-- after selecting netlify will automatially deploy your website.
+- Next select the repo you want to deploy
+- After selecting netlify will automatially deploy your website.
 
-Quickes way to deploy this repo - 
+### Tech Stack Used -
 
-[![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/chetanverma16/react-portfolio-template)
-
-
-### How To Contribute - 
-
-I would be very happy to review your PRs and all the awesome things that you can improve on this portfolio.
-
-
-### Tech Stack Used - 
 - Next.js
 - TailwindCSS
 
+### Credits -
 
-### Thanks
-
-If you liked this portfolio template, don't forget to give it a ⭐.
-
-## Awesome Contributors
-[@Aryan3212](https://github.com/Aryan3212) [@achu-krishna](https://github.com/achu-krishna)
-
-## Supporting
-Many hours of hard work have gone into this project. Your support will be very appreciated!
-
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/chetanverma)
-
-
-
-
-
-
+This portfolio was made using the template created by [@chetanverma16](https://github.com/chetanverma16) and can be found at https://github.com/chetanverma16/react-portfolio-template.
