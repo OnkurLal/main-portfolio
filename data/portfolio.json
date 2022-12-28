@@ -56,7 +56,7 @@
         {
             "id": "2",
             "title": "Branding",
-            "skills": [{"id":"1", "name":"Bootstrap", "imgSrc": "/images/bootstrap.png", "alt":"Bootstrap Icon"}, {"id":"2", "name":"MUI", "imgSrc": "/images/mui-icon.png", "alt":"MUI Icon"}, {"id":"3", "name":"TailwindCSS", "imgSrc": "/images/tailwind-icon.png", "alt":"Tailwind Icon"}, {"id":"4", "name":"Express", "imgSrc":"/images/express-icon.png", "alt":"Express Icon"}]
+            "skills": [{"id":"1", "name":"Bootstrap", "imgSrc": "/images/bootstrap.png", "alt":"Bootstrap Icon"}, {"id":"2", "name":"MUI", "imgSrc": "/images/mui-icon.png", "alt":"MUI Icon"}, {"id":"3", "name":"Tailwind", "imgSrc": "/images/tailwind-icon.png", "alt":"Tailwind Icon"}, {"id":"4", "name":"Express", "imgSrc":"/images/express-icon.png", "alt":"Express Icon"}]
         },
         {
             "id": "3",
