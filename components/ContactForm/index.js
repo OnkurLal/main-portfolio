@@ -6,7 +6,10 @@ import Button from "@mui/material/Button";
 const ContactForm = () => {
   return (
     <>
-      <form className="grid justify-items-center container bg-neutral-300 p-8 w-1/2 mx-auto">
+      <form
+        className="grid justify-items-center container bg-neutral-300 p-8 w-1/2 mx-auto"
+        method="POST"
+      >
         <input
           type="hidden"
           name="form-name"
