@@ -12,6 +12,11 @@ const ContactForm = () => {
         method="POST"
         data-netlify="true"
       >
+        <input
+          type="hidden"
+          name="form-name"
+          value="Portfolio Contact Form"
+        ></input>
         <h1 className="text-2xl text-stone-800 tablet:text-6xl laptop:text-6xl laptopl:text-8xl text-bold">
           LET&apos;S WORK
         </h1>
