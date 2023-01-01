@@ -21,21 +21,21 @@ const ContactForm = () => {
         <h1 className="text-2xl text-stone-800 tablet:text-6xl laptop:text-6xl laptopl:text-8xl text-bold">
           TOGETHER
         </h1>
-        <TextField
+        <input
           id="outlined-basic"
           label="First Name"
           variant="outlined"
           className="w-3/4 p-4"
           name="First Name"
         />
-        <TextField
+        <input
           id="outlined-basic"
           label="Last Name"
           variant="outlined"
           className="w-3/4 p-4"
           name="Last Name"
         />
-        <TextField
+        <input
           id="outlined-basic"
           label="Email"
           type="email"
@@ -43,7 +43,7 @@ const ContactForm = () => {
           className="w-3/4 p-4"
           name="Email"
         />
-        <TextField
+        <input
           id="outlined-multiline-static"
           label="Message"
           multiline
