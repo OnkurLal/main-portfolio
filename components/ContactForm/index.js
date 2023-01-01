@@ -27,7 +27,8 @@ const ContactForm = () => {
           id="outlined-basic"
           label="First Name"
           variant="outlined"
-          className="w-3/4 m-4"
+          className="w-3/4"
+          style={{ margin: "1rem" }}
           name="First Name"
         />
         <TextField
@@ -35,6 +36,7 @@ const ContactForm = () => {
           label="Last Name"
           variant="outlined"
           className="w-3/4 m-4"
+          style={{ margin: "1rem" }}
           name="Last Name"
         />
         <TextField
@@ -42,7 +44,8 @@ const ContactForm = () => {
           label="Email"
           type="email"
           variant="outlined"
-          className="w-3/4 m-4"
+          className="w-3/4"
+          style={{ margin: "1rem" }}
           name="Email"
         />
         <TextField
@@ -50,13 +53,15 @@ const ContactForm = () => {
           label="Message"
           multiline
           rows={4}
-          className="w-3/4 text-current m-4"
+          className="w-3/4 text-current"
+          style={{ margin: "1rem" }}
           name="Message"
         />
         <Button
           variant="contained"
           type="submit"
-          className="p-2 mt-4 border-solid border-2 border-stone-600 text-stone-800"
+          className="p-2 border-solid border-2 border-stone-600 text-stone-800"
+          style={{ marginTop: "1rem" }}
         >
           Submit
         </Button>
