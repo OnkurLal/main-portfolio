@@ -7,7 +7,11 @@ import Button from "@mui/material/Button";
 const ContactForm = () => {
   return (
     <>
-      <form className="grid justify-items-center container bg-neutral-300 p-8 w-1/2 mx-auto">
+      <form
+        data-netlify="true"
+        method="POST"
+        className="grid justify-items-center container bg-neutral-300 p-8 w-1/2 mx-auto"
+      >
         <input
           type="hidden"
           name="form-name"
@@ -23,14 +27,14 @@ const ContactForm = () => {
           id="outlined-basic"
           label="First Name"
           variant="outlined"
-          className="w-3/4 p-4"
+          className="w-3/4 m-4"
           name="First Name"
         />
         <TextField
           id="outlined-basic"
           label="Last Name"
           variant="outlined"
-          className="w-3/4 p-4"
+          className="w-3/4 m-4"
           name="Last Name"
         />
         <TextField
@@ -38,7 +42,7 @@ const ContactForm = () => {
           label="Email"
           type="email"
           variant="outlined"
-          className="w-3/4 p-4"
+          className="w-3/4 m-4"
           name="Email"
         />
         <TextField
@@ -46,7 +50,7 @@ const ContactForm = () => {
           label="Message"
           multiline
           rows={4}
-          className="w-3/4 p-4 text-current"
+          className="w-3/4 text-current m-4"
           name="Message"
         />
         <Button
