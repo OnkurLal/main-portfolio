@@ -9,7 +9,6 @@ const ContactForm = () => {
     <>
       <form
         data-netlify="true"
-        method="POST"
         className="grid justify-items-center container bg-neutral-300 p-8 w-1/2 mx-auto"
       >
         <input
@@ -60,8 +59,11 @@ const ContactForm = () => {
         <Button
           variant="contained"
           type="submit"
-          className="p-2 border-solid border-2 border-stone-600 text-stone-800"
-          style={{ marginTop: "1rem" }}
+          style={{
+            marginTop: "1rem",
+            border: "2px solid rgb(41 37 36)",
+            color: "rgb(41 37 36)",
+          }}
         >
           Submit
         </Button>
