@@ -10,7 +10,7 @@ const ContactForm = () => {
       <form
         className="grid justify-items-center container bg-neutral-300 p-8 w-1/2 mx-auto"
         name="Portfolio Contact Form"
-        method="POST"
+        method="post"
       >
         <input
           type="hidden"
