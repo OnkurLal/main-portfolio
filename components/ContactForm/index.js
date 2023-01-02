@@ -31,7 +31,7 @@ const ContactForm = () => {
           id="outlined-basic"
           label="Last Name"
           variant="outlined"
-          className="w-3/4 m-4"
+          className="w-3/4"
           style={{ margin: "1rem" }}
           name="Last Name"
         />
