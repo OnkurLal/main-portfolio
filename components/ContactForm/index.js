@@ -7,10 +7,7 @@ import Button from "@mui/material/Button";
 const ContactForm = () => {
   return (
     <>
-      <form
-        data-netlify="true"
-        className="grid justify-items-center container bg-neutral-300 p-8 w-1/2 mx-auto"
-      >
+      <form className="grid justify-items-center container bg-neutral-300 p-8 w-1/2 mx-auto">
         <input
           type="hidden"
           name="form-name"
@@ -63,6 +60,7 @@ const ContactForm = () => {
             marginTop: "1rem",
             border: "2px solid rgb(41 37 36)",
             color: "rgb(41 37 36)",
+            backgroundColor: "transparent",
           }}
         >
           Submit
