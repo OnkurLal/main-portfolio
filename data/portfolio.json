@@ -34,16 +34,23 @@
         {
             "id": "1",
             "title": "Past Vacations",
-            "description": "Web design and development done using HTML, CSS, and Bootstrap. Utilized Bootstrap components including jumbotrons, accordions, and carousels. Also has parallax scrolling featured on specific pages.",
+            "description": "Web design and development done using HTML, CSS, and Bootstrap. Utilizes Bootstrap components including jumbotrons, accordions, and carousels. Also has parallax scrolling featured on specific pages.",
             "imageSrc": "/images/vacationWebsite.png",
             "url": "https://onkurpastvacations.netlify.app"
         },
         {
             "id": "2",
             "title": "To Do List App",
-            "description": "Web application developed in React. Utilized MUI for certain components and styling. Used Javascript to conditionally render specific items in to do list. User can create tasks, update completion of tasks, and delete tasks from uncompleted list.",
+            "description": "Web application developed in React. Utilizes MUI for certain components and styling. Uses Javascript to conditionally render specific items in to do list. User can create tasks, update completion of tasks, and delete tasks from uncompleted list.",
             "imageSrc": "/images/toDoListApp.png",
             "url": "https://onkurs-to-do-list-application.netlify.app/"
+        },
+        {
+            "id": "3",
+            "title": "Pupster App",
+            "description": "Web application developed in NextJS. Utilizes TailwindCSS for styling. Allows user to discover dog pictures and to like/dislike dog pictures. The user has a 1 in 5 chance of being liked back by the dog pictures. Utilizes the https://dog.ceo/dog-api/ API for dog pictures.",
+            "imageSrc": "/images/pupster.png",
+            "url": "https://onkurspupster.netlify.app/"
         }
     ],
     "services": [
