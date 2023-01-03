@@ -26,14 +26,14 @@ const ContactForm = () => {
         </h1>
         <TextField
           name="First Name"
-          id="outlined-basic"
+          id="outlined-basic first name"
           label="First Name"
           variant="outlined"
           className="w-3/4"
           style={{ margin: "1rem" }}
         ></TextField>
         <TextField
-          id="outlined-basic"
+          id="outlined-basic last name"
           label="Last Name"
           variant="outlined"
           className="w-3/4"
@@ -41,7 +41,7 @@ const ContactForm = () => {
           name="Last Name"
         ></TextField>
         <TextField
-          id="outlined-basic"
+          id="outlined-basic email"
           label="Email"
           type="email"
           variant="outlined"
