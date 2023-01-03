@@ -10,12 +10,13 @@ const ContactForm = () => {
       <form
         className="grid justify-items-center container bg-neutral-300 p-8 w-1/2 mx-auto"
         name="Portfolio Contact Form"
+        data-netlify="true"
+        method="post"
       >
         <input
           type="hidden"
           name="form-name"
           value="Portfolio Contact Form"
-          formMethod="post"
         ></input>
         <h1 className="text-2xl text-stone-800 tablet:text-6xl laptop:text-6xl laptopl:text-8xl text-bold">
           LET&apos;S WORK
