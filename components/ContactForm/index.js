@@ -25,13 +25,13 @@ const ContactForm = () => {
           TOGETHER
         </h1>
         <TextField
+          name="First Name"
           id="outlined-basic"
           label="First Name"
           variant="outlined"
           className="w-3/4"
           style={{ margin: "1rem" }}
-          name="First Name"
-        />
+        ></TextField>
         <TextField
           id="outlined-basic"
           label="Last Name"
@@ -39,7 +39,7 @@ const ContactForm = () => {
           className="w-3/4"
           style={{ margin: "1rem" }}
           name="Last Name"
-        />
+        ></TextField>
         <TextField
           id="outlined-basic"
           label="Email"
@@ -48,7 +48,7 @@ const ContactForm = () => {
           className="w-3/4"
           style={{ margin: "1rem" }}
           name="Email"
-        />
+        ></TextField>
         <TextField
           id="outlined-multiline-static"
           label="Message"
@@ -57,7 +57,7 @@ const ContactForm = () => {
           className="w-3/4 text-current"
           style={{ margin: "1rem" }}
           name="Message"
-        />
+        ></TextField>
         <Button
           variant="contained"
           type="submit"
