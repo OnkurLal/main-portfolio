@@ -51,6 +51,13 @@
             "description": "Web application developed in NextJS. Utilizes TailwindCSS for styling. Allows user to discover dog pictures and to like/dislike dog pictures. The user has a 1 in 5 chance of being liked back by the dog pictures. Utilizes the https://dog.ceo/dog-api/ API for dog pictures.",
             "imageSrc": "/images/pupster.png",
             "url": "https://onkurspupster.netlify.app/"
+        },
+        {
+            "id": "4",
+            "title": "Weather Forecast App",
+            "description": "Web application developed in NextJS. Utilizes Bootstrap for styling. Allows user to get search for cities world wide to get the current weather. Also gives the user a 12 hour forecast in a horizontal scrolling container. Utilizes the https://home.openweathermap.org/api_keys API for weather data.",
+            "imageSrc": "/images/weather.png",
+            "url": "https://onkurs-weather-app.netlify.app/"
         }
     ],
     "services": [
