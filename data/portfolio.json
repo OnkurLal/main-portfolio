@@ -58,6 +58,13 @@
             "description": "Web application developed in NextJS. Utilizes Bootstrap for styling. Allows user to get search for cities world wide to get the current weather. Also gives the user a 12 hour forecast in a horizontal scrolling container. Utilizes the https://home.openweathermap.org/api_keys API for weather data.",
             "imageSrc": "/images/weather.png",
             "url": "https://onkurs-weather-app.netlify.app/"
+        },
+        {
+            "id": "5",
+            "title": "Book List",
+            "description": "Web application developed in NodeJS and Express. Allows user to view, update, add, and delete books from list. Books are linked to MongoDB Atlas database.",
+            "imageSrc": "/images/book.png",
+            "url": "https://book-list-bkzl.onrender.com"
         }
     ],
     "services": [
