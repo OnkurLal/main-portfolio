@@ -65,6 +65,13 @@
             "description": "Web application developed in NodeJS and Express. Allows user to view, update, add, and delete books from list. Books are linked to MongoDB Atlas database.",
             "imageSrc": "/images/book.png",
             "url": "https://book-list-bkzl.onrender.com"
+        },
+        {
+            "id": "6",
+            "title": "NextAuth.js Example",
+            "description": "Web application developed in NextJS that showcases NextAuth.js. NextAuth.js is an easy to implement, full-stack (client/server) open source authentication library originally designed for Next.js and Serverless.",
+            "imageSrc": "/images/next-auth.png",
+            "url": "https://onkurs-next-auth-example.netlify.app/"
         }
     ],
     "services": [
