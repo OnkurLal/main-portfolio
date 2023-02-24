@@ -33,31 +33,31 @@
     "projects": [
         {
             "id": "1",
-            "title": "Past Vacations",
-            "description": "Web design and development done using HTML, CSS, and Bootstrap. Utilizes Bootstrap components including jumbotrons, accordions, and carousels. Also has parallax scrolling featured on specific pages.",
-            "imageSrc": "/images/vacationWebsite.png",
-            "url": "https://onkurpastvacations.netlify.app"
+            "title": "Weather Forecast App",
+            "description": "Web application developed in NextJS. Utilizes Bootstrap for styling. Allows user to get search for cities world wide to get the current weather. Also gives the user a 12 hour forecast in a horizontal scrolling container. Utilizes the https://home.openweathermap.org/api_keys API for weather data.",
+            "imageSrc": "/images/weather.png",
+            "url": "https://onkurs-weather-app.netlify.app/"
         },
         {
             "id": "2",
-            "title": "To Do List App",
-            "description": "Web application developed in React. Utilizes MUI for certain components and styling. Uses Javascript to conditionally render specific items in to do list. User can create tasks, update completion of tasks, and delete tasks from uncompleted list.",
-            "imageSrc": "/images/toDoListApp.png",
-            "url": "https://onkurs-to-do-list-application.netlify.app/"
-        },
-        {
-            "id": "3",
             "title": "Pupster App",
             "description": "Web application developed in NextJS. Utilizes TailwindCSS for styling. Allows user to discover dog pictures and to like/dislike dog pictures. The user has a 1 in 5 chance of being liked back by the dog pictures. Utilizes the https://dog.ceo/dog-api/ API for dog pictures.",
             "imageSrc": "/images/pupster.png",
             "url": "https://onkurspupster.netlify.app/"
         },
         {
+            "id": "3",
+            "title": "Past Vacations",
+            "description": "Web design and development done using HTML, CSS, and Bootstrap. Utilizes Bootstrap components including jumbotrons, accordions, and carousels. Also has parallax scrolling featured on specific pages.",
+            "imageSrc": "/images/vacationWebsite.png",
+            "url": "https://onkurpastvacations.netlify.app"
+        },
+        {
             "id": "4",
-            "title": "Weather Forecast App",
-            "description": "Web application developed in NextJS. Utilizes Bootstrap for styling. Allows user to get search for cities world wide to get the current weather. Also gives the user a 12 hour forecast in a horizontal scrolling container. Utilizes the https://home.openweathermap.org/api_keys API for weather data.",
-            "imageSrc": "/images/weather.png",
-            "url": "https://onkurs-weather-app.netlify.app/"
+            "title": "To Do List App",
+            "description": "Web application developed in React. Utilizes MUI for certain components and styling. Uses Javascript to conditionally render specific items in to do list. User can create tasks, update completion of tasks, and delete tasks from uncompleted list.",
+            "imageSrc": "/images/toDoListApp.png",
+            "url": "https://onkurs-to-do-list-application.netlify.app/"
         },
         {
             "id": "5",
