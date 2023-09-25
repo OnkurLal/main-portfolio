@@ -1,139 +1,203 @@
 {
-    "name": "Onkur Lal",
-    "headerTaglineOne": "Hello 👋",
-    "headerTaglineTwo": "I'm Onkur Lal - curious",
-    "headerTaglineThree": "designer and developer",
-    "headerTaglineFour": " based in Alexandria, VA",
-    "showCursor": false,
-    "showBlog": false,
-    "darkMode": true,
-    "showResume": false,
-    "socials": [
-        {
-            "id": "1",
-            "title": "Github",
-            "link": "https://github.com/OnkurLal"
-        },
-        {
-            "id": "2",
-            "title": "LinkedIn",
-            "link": "https://www.linkedin.com/in/onkur-lal-9712a7242/"
-        },
-        {
-            "id": "3",
-            "title": "Email",
-            "link": "mailto:onkur24lal@gmail.com"
-        },
-        {
-            "id": "4",
-            "title": "Phone",
-            "link": "tel:5712515243"
-        }
-    ],
-    "projects": [
-        {
-            "id": "1",
-            "title": "Weather Forecast App",
-            "description": "Web application developed in NextJS. Utilizes Bootstrap for styling. Allows user to get search for cities world wide to get the current weather. Also gives the user a 12 hour forecast in a horizontal scrolling container. Utilizes the https://home.openweathermap.org/api_keys API for weather data.",
-            "imageSrc": "/images/weather.png",
-            "url": "https://onkurs-weather-app.netlify.app/"
-        },
-        {
-            "id": "2",
-            "title": "Pupster App",
-            "description": "Web application developed in NextJS. Utilizes TailwindCSS for styling. Allows user to discover dog pictures and to like/dislike dog pictures. The user has a 1 in 5 chance of being liked back by the dog pictures. Utilizes the https://dog.ceo/dog-api/ API for dog pictures.",
-            "imageSrc": "/images/pupster.png",
-            "url": "https://onkurspupster.netlify.app/"
-        },
-        {
-            "id": "3",
-            "title": "Past Vacations",
-            "description": "Web design and development done using HTML, CSS, and Bootstrap. Utilizes Bootstrap components including jumbotrons, accordions, and carousels. Also has parallax scrolling featured on specific pages.",
-            "imageSrc": "/images/vacationWebsite.png",
-            "url": "https://onkurpastvacations.netlify.app"
-        },
-        {
-            "id": "4",
-            "title": "To Do List App",
-            "description": "Web application developed in React. Utilizes MUI for certain components and styling. Uses Javascript to conditionally render specific items in to do list. User can create tasks, update completion of tasks, and delete tasks from uncompleted list.",
-            "imageSrc": "/images/toDoListApp.png",
-            "url": "https://onkurs-to-do-list-application.netlify.app/"
-        },
-        {
-            "id": "5",
-            "title": "Book List",
-            "description": "Web application developed in NodeJS and Express. Allows user to view, update, add, and delete books from list. Books are linked to MongoDB Atlas database.",
-            "imageSrc": "/images/book.png",
-            "url": "https://book-list-bkzl.onrender.com"
-        },
-        {
-            "id": "6",
-            "title": "NextAuth.js Example",
-            "description": "Web application developed in NextJS that showcases NextAuth.js. NextAuth.js is an easy to implement, full-stack (client/server) open source authentication library originally designed for Next.js and Serverless.",
-            "imageSrc": "/images/next-auth.png",
-            "url": "https://onkurs-next-auth-example.netlify.app/"
-        }
-    ],
-    "services": [
-        {
-            "id": "1",
-            "title": "Art Direction",
-            "skills": [{"id":"1", "name":"HTML", "imgSrc": "/images/html-icon.png", "alt":"HTML Icon"}, {"id":"2", "name":"CSS", "imgSrc": "/images/css-icon.png", "alt":"CSS Icon"}, {"id":"3", "name":"JavaScript", "imgSrc": "/images/js-icon.png", "alt": "JS Icon"}, {"id":"4", "name":"NodeJS", "imgSrc": "/images/nodeJS-icon.png", "alt": "NodeJS Icon"}]
-
-        },
-        {
-            "id": "2",
-            "title": "Branding",
-            "skills": [{"id":"1", "name":"Bootstrap", "imgSrc": "/images/bootstrap.png", "alt":"Bootstrap Icon"}, {"id":"2", "name":"MUI", "imgSrc": "/images/mui-icon.png", "alt":"MUI Icon"}, {"id":"3", "name":"Tailwind", "imgSrc": "/images/tailwind-icon.png", "alt":"Tailwind Icon"}, {"id":"4", "name":"Express", "imgSrc":"/images/express-icon.png", "alt":"Express Icon"}]
-        },
-        {
-            "id": "3",
-            "title": "Web Design",
-            "skills": [{"id":"1", "name":"React", "imgSrc": "/images/react-icon.png", "alt":"React Icon"}, {"id":"2", "name":"NextJS", "imgSrc": "/images/nextJS-icon.png", "alt":"NextJS Icon"}, {"id":"3", "name":"Git", "imgSrc": "/images/git-icon.png", "alt":"Git Icon"}, {"id":"4", "name":"MongoDB", "imgSrc": "/images/mongoDB-icon.png", "alt":"MongoDB Icon"}]
-
-        }
-    ],
-    "aboutpara": "Junior Developer at Victory Code with a passion for developing innovative programs that expedite the efficiency and effectiveness of organizational success. Versed in technology and writing code to create systems that are reliable and user-friendly. Confident communicator, strategic thinker, and innovative creator to develop software that is customized to meet a company’s organizational needs, highlight its core competencies, and further its success.",
-    "resume": {
-        "tagline": "👋  I'm a software engineer, product designer.",
-        "description": "I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",
-        "experiences": [
-            {
-                "id": "1",
-                "dates": "March 2022 - Present",
-                "type": "Full Time",
-                "position": "Frontend Engineer at X",
-                "bullets": "Bullet One, Bullet Two"
-            },
-            {
-                "id": "d495c23b-4f65-479a-9b8a-cfbc1c089725",
-                "dates": "July 2020 - March 2022",
-                "type": "Full Time",
-                "position": "Frontend Engineer at X",
-                "bullets": "Worked on the frontend of a React application, Worked on the frontend of a React application"
-            }
-        ],
-        "education": {
-            "universityName": "University X",
-            "universityDate": "2016-2020",
-            "universityPara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
-        },
-        "languages": [
-            "Javascript",
-            "HTML5",
-            "CSS",
-            "Python",
-            "Go"
-        ],
-        "frameworks": [
-            "React",
-            "Typescript",
-            "NodeJs"
-        ],
-        "others": [
-            "Figma",
-            "AdobeXD",
-            "AWS"
-        ]
+  "name": "Onkur Lal",
+  "headerTaglineOne": "Hello 👋",
+  "headerTaglineTwo": "I'm Onkur Lal - curious",
+  "headerTaglineThree": "designer and developer",
+  "headerTaglineFour": " based in Alexandria, VA",
+  "showCursor": false,
+  "showBlog": false,
+  "darkMode": true,
+  "showResume": false,
+  "socials": [
+    {
+      "id": "1",
+      "title": "GitHub",
+      "link": "https://github.com/OnkurLal"
+    },
+    {
+      "id": "2",
+      "title": "GitLab",
+      "link": "https://gitlab.com/Onkurlal"
+    },
+    {
+      "id": "3",
+      "title": "LinkedIn",
+      "link": "https://www.linkedin.com/in/onkur-lal-9712a7242/"
+    },
+    {
+      "id": "4",
+      "title": "Email",
+      "link": "mailto:onkur24lal@gmail.com"
+    },
+    {
+      "id": "5",
+      "title": "Phone",
+      "link": "tel:5712515243"
     }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "My Health App",
+      "description": "Web application developed in Django. Utilizes user authentication allowing user to keep track of medical information and make informed decisions about their health.",
+      "imageSrc": "/images/myhealth.png",
+      "url": "https://myhealth.pythonanywhere.com/records/"
+    },
+    {
+      "id": "2",
+      "title": "Weather Forecast App",
+      "description": "Web application developed in NextJS. Utilizes Bootstrap for styling. Allows user to get search for cities world wide to get the current weather. Also gives the user a 12 hour forecast in a horizontal scrolling container. Utilizes the https://home.openweathermap.org/api_keys API for weather data.",
+      "imageSrc": "/images/weather.png",
+      "url": "https://onkurs-weather-app.netlify.app/"
+    },
+    {
+      "id": "3",
+      "title": "Pupster App",
+      "description": "Web application developed in NextJS. Utilizes TailwindCSS for styling. Allows user to discover dog pictures and to like/dislike dog pictures. The user has a 1 in 5 chance of being liked back by the dog pictures. Utilizes the https://dog.ceo/dog-api/ API for dog pictures.",
+      "imageSrc": "/images/pupster.png",
+      "url": "https://onkurspupster.netlify.app/"
+    },
+    {
+      "id": "4",
+      "title": "Past Vacations",
+      "description": "Web design and development done using HTML, CSS, and Bootstrap. Utilizes Bootstrap components including jumbotrons, accordions, and carousels. Also has parallax scrolling featured on specific pages.",
+      "imageSrc": "/images/vacationWebsite.png",
+      "url": "https://onkurpastvacations.netlify.app"
+    },
+    {
+      "id": "5",
+      "title": "To Do List App",
+      "description": "Web application developed in React. Utilizes MUI for certain components and styling. Uses Javascript to conditionally render specific items in to do list. User can create tasks, update completion of tasks, and delete tasks from uncompleted list.",
+      "imageSrc": "/images/toDoListApp.png",
+      "url": "https://onkurs-to-do-list-application.netlify.app/"
+    },
+    {
+      "id": "6",
+      "title": "Book List",
+      "description": "Web application developed in NodeJS and Express. Allows user to view, update, add, and delete books from list. Books are linked to MongoDB Atlas database.",
+      "imageSrc": "/images/book.png",
+      "url": "https://book-list-bkzl.onrender.com"
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "title": "Art Direction",
+      "skills": [
+        {
+          "id": "1",
+          "name": "HTML",
+          "imgSrc": "/images/html-icon.png",
+          "alt": "HTML Icon"
+        },
+        {
+          "id": "2",
+          "name": "CSS",
+          "imgSrc": "/images/css-icon.png",
+          "alt": "CSS Icon"
+        },
+        {
+          "id": "3",
+          "name": "JavaScript",
+          "imgSrc": "/images/js-icon.png",
+          "alt": "JS Icon"
+        },
+        {
+          "id": "4",
+          "name": "NodeJS",
+          "imgSrc": "/images/nodeJS-icon.png",
+          "alt": "NodeJS Icon"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Branding",
+      "skills": [
+        {
+          "id": "1",
+          "name": "Bootstrap",
+          "imgSrc": "/images/bootstrap.png",
+          "alt": "Bootstrap Icon"
+        },
+        {
+          "id": "2",
+          "name": "MUI",
+          "imgSrc": "/images/mui-icon.png",
+          "alt": "MUI Icon"
+        },
+        {
+          "id": "3",
+          "name": "Tailwind",
+          "imgSrc": "/images/tailwind-icon.png",
+          "alt": "Tailwind Icon"
+        },
+        {
+          "id": "4",
+          "name": "Express",
+          "imgSrc": "/images/express-icon.png",
+          "alt": "Express Icon"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Web Design",
+      "skills": [
+        {
+          "id": "1",
+          "name": "React",
+          "imgSrc": "/images/react-icon.png",
+          "alt": "React Icon"
+        },
+        {
+          "id": "2",
+          "name": "NextJS",
+          "imgSrc": "/images/nextJS-icon.png",
+          "alt": "NextJS Icon"
+        },
+        {
+          "id": "3",
+          "name": "Git",
+          "imgSrc": "/images/git-icon.png",
+          "alt": "Git Icon"
+        },
+        {
+          "id": "4",
+          "name": "MongoDB",
+          "imgSrc": "/images/mongoDB-icon.png",
+          "alt": "MongoDB Icon"
+        }
+      ]
+    }
+  ],
+  "aboutpara": "Junior Developer at Victory Code with a passion for developing innovative programs that expedite the efficiency and effectiveness of organizational success. Versed in technology and writing code to create systems that are reliable and user-friendly. Confident communicator, strategic thinker, and innovative creator to develop software that is customized to meet a company’s organizational needs, highlight its core competencies, and further its success.",
+  "resume": {
+    "tagline": "👋  I'm a software engineer, product designer.",
+    "description": "I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",
+    "experiences": [
+      {
+        "id": "1",
+        "dates": "March 2022 - Present",
+        "type": "Full Time",
+        "position": "Frontend Engineer at X",
+        "bullets": "Bullet One, Bullet Two"
+      },
+      {
+        "id": "d495c23b-4f65-479a-9b8a-cfbc1c089725",
+        "dates": "July 2020 - March 2022",
+        "type": "Full Time",
+        "position": "Frontend Engineer at X",
+        "bullets": "Worked on the frontend of a React application, Worked on the frontend of a React application"
+      }
+    ],
+    "education": {
+      "universityName": "University X",
+      "universityDate": "2016-2020",
+      "universityPara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+    },
+    "languages": ["Javascript", "HTML5", "CSS", "Python", "Go"],
+    "frameworks": ["React", "Typescript", "NodeJs"],
+    "others": ["Figma", "AdobeXD", "AWS"]
+  }
 }
