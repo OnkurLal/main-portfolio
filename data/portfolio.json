@@ -86,33 +86,75 @@
       "skills": [
         {
           "id": "1",
-          "name": "HTML",
-          "imgSrc": "/images/html-icon.png",
-          "alt": "HTML Icon"
+          "name": "Python",
+          "imgSrc": "/images/python.png",
+          "alt": "Python Icon"
         },
         {
           "id": "2",
-          "name": "CSS",
-          "imgSrc": "/images/css-icon.png",
-          "alt": "CSS Icon"
-        },
-        {
-          "id": "3",
           "name": "JavaScript",
           "imgSrc": "/images/js-icon.png",
           "alt": "JS Icon"
         },
         {
+          "id": "3",
+          "name": "HTML",
+          "imgSrc": "/images/html-icon.png",
+          "alt": "HTML Icon"
+        },
+        {
           "id": "4",
-          "name": "NodeJS",
-          "imgSrc": "/images/nodeJS-icon.png",
-          "alt": "NodeJS Icon"
+          "name": "CSS",
+          "imgSrc": "/images/css-icon.png",
+          "alt": "CSS Icon"
+        },
+        {
+          "id": "5",
+          "name": "Git",
+          "imgSrc": "/images/git-icon.png",
+          "alt": "Git Icon"
         }
       ]
     },
     {
       "id": "2",
       "title": "Branding",
+      "skills": [
+        {
+          "id": "1",
+          "name": "Django",
+          "imgSrc": "/images/django.png",
+          "alt": "Django Icon"
+        },
+        {
+          "id": "2",
+          "name": "React",
+          "imgSrc": "/images/react-icon.png",
+          "alt": "React Icon"
+        },
+        {
+          "id": "3",
+          "name": "NextJS",
+          "imgSrc": "/images/nextJS-icon.png",
+          "alt": "NextJS Icon"
+        },
+        {
+          "id": "4",
+          "name": "NodeJS",
+          "imgSrc": "/images/nodeJS-icon.png",
+          "alt": "NodeJS Icon"
+        },
+        {
+          "id": "5",
+          "name": "Express",
+          "imgSrc": "/images/express-icon.png",
+          "alt": "Express Icon"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Web Design",
       "skills": [
         {
           "id": "1",
@@ -134,39 +176,15 @@
         },
         {
           "id": "4",
-          "name": "Express",
-          "imgSrc": "/images/express-icon.png",
-          "alt": "Express Icon"
-        }
-      ]
-    },
-    {
-      "id": "3",
-      "title": "Web Design",
-      "skills": [
-        {
-          "id": "1",
-          "name": "React",
-          "imgSrc": "/images/react-icon.png",
-          "alt": "React Icon"
-        },
-        {
-          "id": "2",
-          "name": "NextJS",
-          "imgSrc": "/images/nextJS-icon.png",
-          "alt": "NextJS Icon"
-        },
-        {
-          "id": "3",
-          "name": "Git",
-          "imgSrc": "/images/git-icon.png",
-          "alt": "Git Icon"
-        },
-        {
-          "id": "4",
           "name": "MongoDB",
           "imgSrc": "/images/mongoDB-icon.png",
           "alt": "MongoDB Icon"
+        },
+        {
+          "id": "5",
+          "name": "PostgreSQL",
+          "imgSrc": "/images/postgresql.png",
+          "alt": "PostgreSQL Icon"
         }
       ]
     }
