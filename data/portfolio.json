@@ -113,6 +113,12 @@
           "name": "Git",
           "imgSrc": "/images/git-icon.png",
           "alt": "Git Icon"
+        },
+        {
+          "id": "6",
+          "name": "Insomnia",
+          "imgSrc": "/images/insomnia.png",
+          "alt": "Insomnia Icon"
         }
       ]
     },
@@ -149,6 +155,12 @@
           "name": "Express",
           "imgSrc": "/images/express-icon.png",
           "alt": "Express Icon"
+        },
+        {
+          "id": "6",
+          "name": "FastAPI",
+          "imgSrc": "/images/fastapi.svg",
+          "alt": "FastAPI Icon"
         }
       ]
     },
@@ -185,6 +197,12 @@
           "name": "PostgreSQL",
           "imgSrc": "/images/postgresql.png",
           "alt": "PostgreSQL Icon"
+        },
+        {
+          "id": "6",
+          "name": "Docker",
+          "imgSrc": "/images/docker.png",
+          "alt": "Docker Icon"
         }
       ]
     }
