@@ -2,7 +2,7 @@
   "name": "Onkur Lal",
   "headerTaglineOne": "Hello 👋",
   "headerTaglineTwo": "I'm Onkur Lal - curious",
-  "headerTaglineThree": "designer and developer",
+  "headerTaglineThree": "developer and engineer",
   "headerTaglineFour": " based in Alexandria, VA",
   "showCursor": false,
   "showBlog": false,
@@ -38,45 +38,67 @@
   "projects": [
     {
       "id": "1",
-      "title": "My Health App",
-      "description": "Web application developed in Django. Utilizes user authentication allowing user to keep track of medical information and make informed decisions about their health.",
-      "imageSrc": "/images/myhealth.png",
-      "url": "https://myhealth.pythonanywhere.com/records/"
+      "title": "MedGuardian",
+      "description": "Application developed to help people manage, track and schedule their medications with a clear and easy to use interface. The application was developed using FastApi for the back-end, PostgreSQL for the database, React and Redux for the front-end, and runs in Dockerized containers.",
+      "imageSrc": "/images/medguardian.png",
+      "url": "https://onkurlal.gitlab.io/module3-project-gamma/",
+      "git": "https://gitlab.com/Onkurlal/module3-project-gamma"
     },
     {
       "id": "2",
-      "title": "Weather Forecast App",
-      "description": "Web application developed in NextJS. Utilizes Bootstrap for styling. Allows user to get search for cities world wide to get the current weather. Also gives the user a 12 hour forecast in a horizontal scrolling container. Utilizes the https://home.openweathermap.org/api_keys API for weather data.",
-      "imageSrc": "/images/weather.png",
-      "url": "https://onkurs-weather-app.netlify.app/"
+      "title": "Car Dealership",
+      "description": "Developed a full-stack application using microservices, while pair programming, that manages service appointments, sales, and inventory. Implemented a RESTful API with Django requests to have full create, read, update, and delete (CRUD) capabilities.",
+      "imageSrc": "/images/cardealership.png",
+      "url": "https://github.com/OnkurLal/car-dealership",
+      "git": "https://github.com/OnkurLal/car-dealership"
     },
     {
       "id": "3",
-      "title": "Pupster App",
-      "description": "Web application developed in NextJS. Utilizes TailwindCSS for styling. Allows user to discover dog pictures and to like/dislike dog pictures. The user has a 1 in 5 chance of being liked back by the dog pictures. Utilizes the https://dog.ceo/dog-api/ API for dog pictures.",
-      "imageSrc": "/images/pupster.png",
-      "url": "https://onkurspupster.netlify.app/"
+      "title": "Weather Forecast App",
+      "description": "Web application developed in NextJS. Utilizes Bootstrap for styling. Allows user to get search for cities world wide to get the current weather. Also gives the user a 12 hour forecast in a horizontal scrolling container. Utilizes the https://home.openweathermap.org/api_keys API for weather data.",
+      "imageSrc": "/images/weather.png",
+      "url": "https://onkurs-weather-app.netlify.app/",
+      "git": "https://github.com/OnkurLal/next-weather-app"
     },
     {
       "id": "4",
-      "title": "Past Vacations",
-      "description": "Web design and development done using HTML, CSS, and Bootstrap. Utilizes Bootstrap components including jumbotrons, accordions, and carousels. Also has parallax scrolling featured on specific pages.",
-      "imageSrc": "/images/vacationWebsite.png",
-      "url": "https://onkurpastvacations.netlify.app"
+      "title": "My Health",
+      "description": "Web application developed in Django. Utilizes user authentication allowing user to keep track of medical information and make informed decisions about their health.",
+      "imageSrc": "/images/myhealth.png",
+      "url": "https://myhealth.pythonanywhere.com/records/",
+      "git": "https://github.com/OnkurLal/my-health"
     },
     {
       "id": "5",
-      "title": "To Do List App",
-      "description": "Web application developed in React. Utilizes MUI for certain components and styling. Uses Javascript to conditionally render specific items in to do list. User can create tasks, update completion of tasks, and delete tasks from uncompleted list.",
-      "imageSrc": "/images/toDoListApp.png",
-      "url": "https://onkurs-to-do-list-application.netlify.app/"
+      "title": "Pupster App",
+      "description": "Web application developed in NextJS. Utilizes TailwindCSS for styling. Allows user to discover dog pictures and to like/dislike dog pictures. The user has a 1 in 5 chance of being liked back by the dog pictures. Utilizes the https://dog.ceo/dog-api/ API for dog pictures.",
+      "imageSrc": "/images/pupster.png",
+      "url": "https://onkurspupster.netlify.app/",
+      "git": "https://github.com/OnkurLal/plenty-of-dogs"
     },
     {
       "id": "6",
+      "title": "Past Vacations",
+      "description": "Web design and development done using HTML, CSS, and Bootstrap. Utilizes Bootstrap components including jumbotrons, accordions, and carousels. Also has parallax scrolling featured on specific pages.",
+      "imageSrc": "/images/vacationWebsite.png",
+      "url": "https://onkurpastvacations.netlify.app",
+      "git": "https://github.com/OnkurLal/responsive-final"
+    },
+    {
+      "id": "7",
+      "title": "To Do List App",
+      "description": "Web application developed in React. Utilizes MUI for certain components and styling. Uses Javascript to conditionally render specific items in to do list. User can create tasks, update completion of tasks, and delete tasks from uncompleted list.",
+      "imageSrc": "/images/toDoListApp.png",
+      "url": "https://onkurs-to-do-list-application.netlify.app/",
+      "git": "https://github.com/OnkurLal/to-do-list-app"
+    },
+    {
+      "id": "8",
       "title": "Book List",
       "description": "Web application developed in NodeJS and Express. Allows user to view, update, add, and delete books from list. Books are linked to MongoDB Atlas database.",
       "imageSrc": "/images/book.png",
-      "url": "https://book-list-bkzl.onrender.com"
+      "url": "https://book-list-bkzl.onrender.com",
+      "git": "https://github.com/OnkurLal/book-list-app"
     }
   ],
   "services": [
@@ -207,7 +229,7 @@
       ]
     }
   ],
-  "aboutpara": "Junior Developer at Victory Code with a passion for developing innovative programs that expedite the efficiency and effectiveness of organizational success. Versed in technology and writing code to create systems that are reliable and user-friendly. Confident communicator, strategic thinker, and innovative creator to develop software that is customized to meet a company’s organizational needs, highlight its core competencies, and further its success.",
+  "aboutpara": "Software Engineer at Victory Code with a passion for developing innovative programs that expedite the efficiency and effectiveness of organizational success. Versed in technology and writing code to create systems that are reliable and user-friendly. Confident communicator, strategic thinker, and innovative creator to develop software that is customized to meet a company’s organizational needs, highlight its core competencies, and further its success.",
   "resume": {
     "tagline": "👋  I'm a software engineer, product designer.",
     "description": "I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",
